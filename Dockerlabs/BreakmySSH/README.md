@@ -48,7 +48,7 @@ PORT   STATE SERVICE VERSION
 22/tcp open  ssh     OpenSSH 7.7 (protocol 2.0)
 ```
 
-Solo hay un puerto abierto: el **22/tcp**, corriendo **OpenSSH 7.7**. No hay servidor web, no hay FTP, no hay nada más. El vector de ataque es directo: el servicio SSH.
+Solo hay un puerto abierto: el **22/tcp**, corriendo **OpenSSH 7.7** no hay nada más. El vector de ataque es directo al servicio SSH.
 
 > **Nota:** La versión OpenSSH 7.7 es antigua (2018). Versiones anteriores a 7.7 eran vulnerables a un bug de enumeración de usuarios ([CVE-2018-15473](https://nvd.nist.gov/vuln/detail/CVE-2018-15473)) que permite confirmar si un usuario existe sin conocer su contraseña. En 7.7 ya fue parcheado.
 
